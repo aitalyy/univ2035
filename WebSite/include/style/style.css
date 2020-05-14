@@ -1,0 +1,90 @@
+A {
+    color: #797979; /* Цвет ссылок */
+}
+A:visited {
+    color: #b8b8b8; /* Цвет посещенных ссылок */
+}
+A:active {
+    color: #413b3b; /* Цвет активных ссылок */
+}
+@font-face{
+    font-family: plainscriptctt;
+ src: url(include/font/plainscriptctt.ttf);
+}
+@font-face{
+ font-family: epsilon;
+ src: url(include/font/epsilon.ttf);
+}
+@font-face{
+ font-family: code;
+ src: url(include/font/code.ttf) format('ttf');
+}
+
+.pan{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    padding: 20px;
+    background-color:  transparent;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: 0;
+    overflow: visible;
+    display: block;
+    
+}
+.pan3{
+	text-align:right; 
+	width: 1%; 
+	vertical-align: middle;
+    font: color="red";
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	display: table-cell !important;
+}
+#tb1{
+    padding: 0 5 0 5;
+}
+.gl{
+	color: white;
+	font-family: "arial";
+	/* transform: translateY(+50%); */
+    top: 50%;
+    margin-left: 0;
+    background-color: #4b8974;
+}
+#to{
+	top: 50%;
+	padding: 100px 0;
+}
+#img_man{
+    margin-right: 0;
+}
+
+.text1{
+    
+    width: 700px;
+    padding: 0 20;
+    text-align: center;
+    /* padding-bottom: 10; */
+    font: 40pt sans-serif;
+    font-family: 'code';
+}
+.text2{
+    width: 700px;
+    text-align: center;
+    padding: 10 0 20 0;
+    font: 20pt sans-serif;
+    font-family: plainscriptctt;
+}
+.parall{
+    border-radius: 2px;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px; 
+    height: 12px;
+    transform: skew(-20deg);
+    background: white;
+}
