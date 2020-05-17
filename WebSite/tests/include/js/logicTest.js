@@ -1,24 +1,47 @@
 var questions=[
     {
-        text: "Эстетический идеал выступает как:",
-        answers: ["тенденция  развития искусства",
-        	  "тенденция общественного развития",
-        	  "тенденция правящих групп"],
+        text: "qwe?:",
+        answers: ["asd",
+        	"zxc",
+            "123",
+            "asd"],
         correctAnswer: 0 // нумерация ответов с нуля!
     },
     {
-        text: "Эстетические чувства:",
-        answers: ["даются человеку от  рождения",
-              "формируются в первые 3-4 года жизни",
-              "наличествуют не  у всех людей, а развиваются индивидуально"],
+        text: "weq:",
+        answers: ["qwe",
+              "asd",
+              "zxc"],
         correctAnswer: 1
     },
 ];
+
+// for(var i=0; i < 5; i++){
+    
+//     questions[i].text[0]="iasd";
+//     for(var j=0; j<3;j++){
+//         questions[i].answers[j]="asd";
+//     }
+//     questions[i].correctAnswer[i] = 0;
+// }
+for(var i=0; i < 5; i++){
+    
+    questions[i]=[{
+        text: "weq:",
+        answers: ["qwe",
+              "asd",
+              "zxc"],
+        correctAnswer: 1
+    },]
+}
+
 
 var yourAns = new Array;
 var score = 0;
 
 function Engine(question, answer) {yourAns[question]=answer;}
+
+document.writeln(questions.length);
 
 function Score(){
    var answerText = "Результаты:\n";
