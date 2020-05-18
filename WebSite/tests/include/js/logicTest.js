@@ -24,16 +24,6 @@ var questions=[
 //     }
 //     questions[i].correctAnswer[i] = 0;
 // }
-for(var i=0; i < 5; i++){
-    
-    questions[i]=[{
-        text: "weq:",
-        answers: ["qwe",
-              "asd",
-              "zxc"],
-        correctAnswer: 1
-    },]
-}
 
 
 var yourAns = new Array;
